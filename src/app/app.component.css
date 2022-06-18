@@ -15,6 +15,9 @@
   Neptune : ~59 802 days (~165 years)
   Pluto : ~90 580 days (~248 years)
 */
+* {
+  font-family: 'Open Sans', sans-serif !important;
+}
 *,
 *:before,
 *:after {
@@ -30,7 +33,7 @@ body {
 }
 
 body {
-  font: normal 1em/1.45em Arial, sans-serif;
+  /* font: normal 1em/1.45em Arial, sans-serif; */
   -webkit-font-smoothing: antialiased;
   color: #fff;
   background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
@@ -65,6 +68,7 @@ a:visited.icon {
   color: white;
   padding: 30px;
   position: absolute;
+
   top: 30%;
   left: 4%;
   width: 42%;
@@ -72,6 +76,7 @@ a:visited.icon {
 }
 .description > h1 {
   font-weight: bold;
+  font-size: 60px;
 }
 .description p {
   font-size: 0.9em;
@@ -101,6 +106,8 @@ code {
   height: 100%;
   position: absolute;
   left: 20%;
+  Transform: scale(1.5);
+  overflow: hidden;
 }
 .solar-syst:after {
   content: "";

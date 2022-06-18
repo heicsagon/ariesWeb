@@ -2,10 +2,12 @@
 
 html,
 body {
+  
   height: 100%;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* font-family: Roboto, "Helvetica Neue", sans-serif; */
 }
 body {
   margin: 0;
+  overflow: hidden;
   background: radial-gradient(ellipse at bottom, #1c2837 0%, #050608 100%);
 }
